@@ -2,6 +2,6 @@ import React from 'react';
 
 // import { Container } from './styles';
 
-export default function TechList() {
+export default function components() {
   return <div />;
 }
