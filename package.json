@@ -4,9 +4,13 @@
   "private": true,
   "dependencies": {
     "babel-jest": "^24.9.0",
-    "react": "^16.8.6",
+    "immer": "^5.0.0",
+    "react": "^16.12.0",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
+    "react-redux": "^7.1.3",
+    "react-scripts": "3.0.1",
+    "redux": "^4.0.4",
+    "redux-saga": "^1.1.3"
   },
   "scripts": {
     "start": "react-app-rewired start",
@@ -42,6 +46,7 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@types/jest": "^24.0.23",
+    "axios-mock-adapter": "^1.17.0",
     "jest-localstorage-mock": "^2.4.0",
     "react-app-rewired": "^2.1.5"
   }
